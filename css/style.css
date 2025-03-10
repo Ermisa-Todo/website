@@ -4,9 +4,10 @@
   padding: 0;
   box-sizing: border-box;
   background-color: #e6e6e6;
+  scroll-behavior: smooth;
 }
 html {
-  font-size: 1rem;
+  font-size:18px;
 }
 #main {
   overflow: hidden;
@@ -843,11 +844,7 @@ img.show {
 /* responsive for small devices */
 @media only screen and (max-width: 480px) {
   html {
-    font-size: 17px;
-  }
-
-  h1 {
-    font-size: 2rem;
+    font-size: 16px;
   }
   h2 {
     font-size: 1.75rem;
@@ -900,7 +897,7 @@ img.show {
   .hero {
     position: relative;
     margin: 0;
-    height: 90vh;
+    height: auto;
     width: 100%;
   }
   .image-hero img {
@@ -908,23 +905,23 @@ img.show {
     height: 30vh;
   }
 
-  .hero-content {
-    height: 70%;
-    width: 70%;
-    padding: 1rem;
+  .hero .hero-content{
+    height: 60%;
+    width:70%;
+    padding: 0.5rem;
+    overflow: hidden;
   }
-  .hero-title {
+  .hero-content h1{
     font-size: 2rem;
-    word-spacing: 2px;
-    background-color: transparent;
+    word-spacing: 1px;
     margin-bottom: 1rem;
   }
 
-  .hero-text {
+  .hero-content p{
     font-size: 1rem;
-    margin-bottom: 1.2rem;
+    margin-bottom:1rem;
   }
-  .btn-hero {
+  .hero .btn-hero{
     padding: 0.5rem 1rem;
     font-size: 1rem;
   }
