@@ -13,14 +13,13 @@ html {
   overflow: hidden;
 }
 /* common-style */
-* {
-  h1 {
+  h1{
     font-family: "Playfair Display", serif;
     font-size: 3rem;
     font-weight: 500;
   }
 
-  h2 {
+  h2{
     font-family: "Playfair display", serif;
     font-size: 2.5rem;
     word-spacing: 5px;
@@ -28,28 +27,27 @@ html {
     margin-bottom: 1.5rem;
   }
 
-  h3 {
+  h3{
     font-family: "Playfair display", serif;
     font-size: 1.5rem;
     font-weight: 500;
   }
-  h4 {
+  h4{
     font-family: "Roboto", sans-serif;
     font-size: 1.3rem;
     font-weight: 500;
   }
-  h5 {
+  h5{
     font-family: "Roboto", sans-serif;
     font-size: 1.1rem;
     font-weight: 400;
   }
-  p {
+  p{
     font-family: "Roboto", sans-serif;
     font-size: 1rem;
     font-weight: 400;
     color: #000000;
   }
-}
 .cursor {
   width: 0.5rem;
   height: 0.5rem;
@@ -74,7 +72,7 @@ header {
 .navbar {
   display: flex;
   align-items: center;
-  background-color: transparent;
+  background-color: #555555;
   text-align: center;
 }
 .container-nav {
@@ -90,6 +88,7 @@ header {
   margin-left: 0;
   padding: 0;
   border-radius: 10px;
+  background-color: #555555;
 }
 
 .navbar-toggler-icon {
@@ -105,10 +104,11 @@ header {
   display: flex;
   background-color: #555555;
 }
-.navbar-social a {
+.navbar-social a{
   color: rgb(255, 255, 255);
   display: inline-block;
   text-decoration: none;
+  background-color: #555555;
 }
 .navbar-social img {
   height: 2rem;
@@ -129,10 +129,10 @@ header {
   background-color: #555555;
   padding: 1rem;
 }
-.navbar-nav {
+.navbar-nav{
   background-color: #555555;
 }
-.collapse a {
+.collapse a{
   font-family: "Roboto", sans-serif;
   font-size: 1.1rem;
   font-weight: 500;
@@ -144,9 +144,14 @@ header {
 }
 .collapse a:hover {
   color: #000000;
+  background-color: #555555;
 }
-.collapse li {
+.navbar-collapse ul{
+  background-color: #af2c2c;
+}
+.collapse li{
   list-style: none;
+  background-color: #555555;
 }
 /* end header */
 /* start content*/
@@ -339,7 +344,6 @@ header {
   flex-direction: column;
   align-items: center;
   background-repeat: no-repeat;
-  /* background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url(../image/Untitled-1.png); */
 }
 
 .portfolio-wrapper {
@@ -479,7 +483,7 @@ small {
 .section-journey-body {
   width: 90%;
   margin-left: 4rem;
-  background-color: transparent;
+  background-color:#e6e6e6;
 }
 
 .section-journey-title {
@@ -489,29 +493,47 @@ small {
   font-weight: 500;
   margin-bottom: 0.5rem;
   text-align: left;
+  background-color:#e6e6e6;
 }
 
 /* section-certification */
 .section-certification {
+  background-image: url(../image/prova-1-01-01.png);
+  background-position: center ;
+  background-size: 100%;
+  background-repeat: no-repeat;
   padding: 1rem;
   display: flex;
   flex-wrap: wrap;
-  height: auto;
+  height:100vh;
   width: 100%;
   align-content: center;
   justify-content: center;
 }
 
 .row {
-  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
   padding: 1rem;
   border: 1px solid rgb(0, 0, 0);
   border-radius: 15px;
+  background-color: #555555;
+  color: #ffffff;
 }
-
-.certification h2 {
+.col{
+  padding: 0;
+  background-color: #555555;
+  color: #ffffff;
+}
+.certification{
   background-color: transparent;
-  color: #000000;
+  color: #ffffff;
+}
+.certification h3{
+  background-color: #555555;
+  color: #ffffff;
+  font-size: 2rem;
   text-align: left;
   padding: 1rem 0 0 0;
   transform: translateY(20px);
@@ -531,6 +553,15 @@ small {
   padding: 0.5rem;
   justify-content: left;
   text-align: left;
+  background-color: #555555;
+}
+.certification-group h4{
+  background-color: #555555;
+  color: #e6e6e6;
+}
+.section-certification p{
+  background-color: #555555; 
+  font-size: 1rem;
 }
 /* section-skills */
 
@@ -545,6 +576,7 @@ small {
   overflow: hidden;
   justify-content: center;
   background-image: url(../image/Untitled-1.png);
+  background-repeat: no-repeat;
 }
 .skills-grid-wrapper {
   width: 100%;
@@ -1022,7 +1054,7 @@ img.show {
   .footer-social {
     padding: 1rem;
   }
-  .footer-social h2 {
+  .footer-social h2{
     font-size: 1.75rem;
   }
   .footer-social a {
@@ -1077,32 +1109,42 @@ img.show {
     font-size: 1.25rem;
   }
   /* section-certification */
-  .section-certification {
+  .section-certification{
     padding: 1rem;
+    background-size:50vh;
+    margin: 0;
     height: auto;
     width: 100%;
     align-content: center;
     justify-content: center;
+    position: relative;
   }
-
-  .row {
+  .row{
     width: 100%;
-    padding: 0.5rem;
+    height:auto;
+    overflow: hidden;
+    padding:0;
+    margin:0;
   }
-
-  .certification h2 {
-    font-size: 1.75rem;
-    padding: 0.5rem;
+.col{
+  width: 100%;
+  height:auto;
+}
+.certification h3{
+    font-size: 1.3rem;
+    padding: 0;
+    margin: 0;
   }
 
   .certification-group {
-    padding: 0.5rem;
+    padding: 0;
+    margin: 0;
     justify-content: left;
     text-align: left;
   }
 
-  .certification-group h3 {
-    font-size: 1.5;
+  .certification-group h4{
+    font-size: 1.2rem;
   }
   /* section-skills */
 
