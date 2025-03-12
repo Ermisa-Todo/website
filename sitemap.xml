@@ -1,42 +1,21 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<url>
-<loc>https://et-designer.com/</loc>
-<priority>1.00</priority>
-</url>
-<url>
-<loc>https://et-designer.com/index.html</loc>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://et-designer.com/about.html</loc>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://et-designer.com/contact.html</loc>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://et-designer.com/logo.html</loc>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://et-designer.com/elixiressentials.html</loc>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://et-designer.com/couture-art.html</loc>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://et-designer.com/capsule-home.html</loc>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://et-designer.com/personal.html</loc>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://et-designer.com/website.html</loc>
-<priority>0.80</priority>
-</url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://et-designer.com/</loc>
+        <lastmod>2025-03-10</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://et-designer.com/about</loc>
+        <lastmod>2025-03-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://et-designer.com/contact</loc>
+        <lastmod>2025-03-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>
