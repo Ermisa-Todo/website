@@ -7,9 +7,9 @@
   scroll-behavior: smooth;
 }
 html {
-  font-size:18px;
+  font-size: 18px;
 }
-body{
+body {
   margin: 0;
   padding: 0;
 }
@@ -17,42 +17,42 @@ body{
   overflow: hidden;
 }
 /* common-style */
-  h1{
-    font-family: "Playfair Display", serif;
-    font-size: 3rem;
-    font-weight: 500;
-  }
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  font-weight: 500;
+}
 
-  h2{
-    font-family: "Playfair display", serif;
-    font-size: 2.5rem;
-    word-spacing: 5px;
-    background-color: transparent;
-    margin-bottom: 1.5rem;
-  }
+h2 {
+  font-family: "Playfair display", serif;
+  font-size: 2.5rem;
+  word-spacing: 5px;
+  background-color: transparent;
+  margin-bottom: 1.5rem;
+}
 
-  h3{
-    font-family: "Playfair display", serif;
-    font-size: 1.5rem;
-    font-weight: 500;
-  }
-  h4{
-    font-family: "Roboto", sans-serif;
-    font-size: 1.3rem;
-    font-weight: 500;
-  }
-  h5{
-    font-family: "Roboto", sans-serif;
-    font-size: 1.1rem;
-    font-weight: 400;
-  }
-  p{
-    font-family: "Roboto", sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    color: #000000;
-  }
- .cursor {
+h3 {
+  font-family: "Playfair display", serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+h5 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000000;
+}
+.cursor {
   width: 0.5rem;
   height: 0.5rem;
   background-color: #000000;
@@ -63,33 +63,35 @@ body{
   transition: transform 0.05s linear;
   box-shadow: 0 0 0.5rem #ffffff;
   box-shadow: 0 0 0.5rem #000000;
-} 
+}
 
- header {
+header {
   width: 100%;
   height: auto;
   margin: 0;
   padding: 0 2rem;
   text-decoration: none;
-  background-color: #555555;
-} 
-nav{
+  background-color: #000000;
+  z-index: 1000;
+}
+
+nav {
   width: 100%;
   height: auto;
-  background-color:#555555 ;
+  background-color: #000000;
   padding: 0;
   text-align: left;
 }
- .navbar {
+.navbar {
   display: left;
   align-items: left;
-  background-color: #555555;
+  background-color: #000000;
   text-align: left;
 }
 .container-nav {
   width: 100%;
   height: auto;
-  background-color: #555555;
+  background-color: #000000;
 }
 .navbar-toggler {
   display: flex;
@@ -99,35 +101,34 @@ nav{
   margin-left: 0;
   padding: 0;
   border-radius: 5px;
-  background-color: #555555;
-
+  background-color: black;
 }
 .navbar-toggler :hover {
-  background-color: #555555;
+  background-color: transparent;
 }
-span.navbar-toggler-icon{
+span.navbar-toggler-icon {
   border-radius: 5px;
   background-color: none;
   padding: 1.2rem;
 }
 .navbar-toggler-icon:hover {
-  background-color: #555555;
+  background-color: transparent;
 }
 
 .navbar-social {
   display: inline;
-  background-color: #555555;
+  background-color: #000000;
 }
-.navbar-social a{
+.navbar-social a {
   color: rgb(255, 255, 255);
   display: inline-block;
   text-decoration: none;
-  background-color: #555555;
+  background-color: black;
 }
-.navbar-social img{
+.navbar-social img {
   height: 2rem;
   width: 2rem;
-  background-color: #555555;
+  background-color: black;
 }
 .navbar-social img:hover {
   background-color: #000000;
@@ -135,25 +136,25 @@ span.navbar-toggler-icon{
   border-radius: 50%;
 }
 .collapse {
-  display:flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  background-color: #555555;
+  background-color: #000000;
   padding: 0.5rem;
 }
-.navbar-collapse{ 
+.navbar-collapse {
   height: auto;
- display:inline-block;
- color: #ffffff;
- background-color: #555555;
+  display: inline-block;
+  color: #ffffff;
+  background-color: #000000;
 }
-.navbar-nav{
+.navbar-nav {
   color: rgb(254, 254, 254);
-  background-color: #555555;
+  background-color: #000000;
 }
-.navbar-collapse a{
+.navbar-collapse a {
   font-family: "Roboto", sans-serif;
   font-size: 1.1rem;
   font-weight: 500;
@@ -161,76 +162,71 @@ span.navbar-toggler-icon{
   color: rgb(255, 255, 255);
   text-decoration: none;
   padding: 0;
-  background-color: #555555;
+  background-color: #000000;
 }
 .collapse a:hover {
   color: #000000;
-  background-color: #555555;
+  background-color: #000000;
 }
 
-.collapse li{
+.collapse li {
   color: rgb(254, 254, 254);
   list-style: none;
-  background-color: #555555;
-} 
+  background-color: #000000;
+}
 /* end header */
 /* start content*/
-.hero {
-  display: flex;
-  flex-wrap: wrap;
-  position: relative;
-  margin: 0;
+.parallax {
+  background-image: url("../image/back-ground.jpg");
   height: 100vh;
   width: 100%;
-  justify-content: center;
-  align-items: center;
-}
-.image-hero img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0;
-  transform: translateY(50px) scale(0.8);
-  opacity: 0;
-  animation: fadeIn 2s ease-in forwards;
-  animation-delay: 1s;
-}
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  position: relative;
+  color: #ffffff;
 }
 
 .hero-content {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 50%;
-  width: 40%;
-  padding: 1rem;
-  place-content: center;
-  text-align: center;
-  background: rgba(36, 36, 36, 0.2);
-  border: 1px solid rgb(37, 37, 37);
-  border-radius: 15px;
-  backdrop-filter: blur(15px) brightness(1.2);
-  -webkit-backdrop-filter: blur(50px) brightness(1.2);
+  top: 10%;
+  left: 10%;
+  height: auto;
+  width: auto;
+  padding: 2rem;
+  place-content: left;
+  text-align: left;
+  background: transparent;
 }
-.hero-title {
-  font-size: 3rem;
-  font-family: "Playfair display ", serif;
-  word-spacing: 5px;
-  text-align: center;
-  background-color: transparent;
+.hero-title span {
+  display: block;
+  text-align: left;
+  font-size: 3.5rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 800;
+  word-spacing: 3px;
+  background: transparent;
   margin-bottom: 1.5rem;
-  color: #000000;
+  text-shadow: 0.02rem 0.08rem rgba(0, 0, 0, 0.7);
 }
-#animated-title {
+.hero-title i {
+  text-align: left;
+  font-size: 3.5rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 800;
+  font-style: italic;
+  word-spacing: 3px;
+  background: transparent;
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-shadow: 0.02rem 0.08rem rgba(0, 0, 0, 0.7);
+}
+
+.hero-title {
   opacity: 0;
+  background: transparent;
   transform: translateY(20px);
   animation: fadeIn 2.5s ease-out forwards;
 }
@@ -246,17 +242,25 @@ span.navbar-toggler-icon{
 }
 
 .hero-text {
-  font-size: 1.3rem;
+  display: block;
+  text-align: left;
+  color: #ffffff;
+  background: transparent;
+  text-shadow: 0.02rem 0.08rem rgba(0, 0, 0, 0.7);
+}
+.hero-text p {
+  color: #ffffff;
+  text-align: left;
+  word-spacing: 3px;
+  background: transparent;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
   font-weight: 500;
   font-family: "Roboto", sans-serif;
-  background-color: transparent;
-  margin-bottom: 1.5rem;
-  color: rgb(0, 0, 0);
-  text-align: center;
 }
 .btn-hero {
-  padding: 1rem 2rem;
-  font-size: 1rem;
+  padding: 1.2rem 2.5rem;
+  font-size: 1.1rem;
   text-align: center;
   font-weight: 500;
   font-family: "Roboto", sans-serif;
@@ -272,26 +276,33 @@ span.navbar-toggler-icon{
   color: #ffffff;
   box-shadow: 0 6px 13px #333333cc;
 }
-/* end hero */
-/* section-2 */
-.section-2 {
+.parallax2 {
+  background-image: url("../image/back-ground.jpg");
+  height: 90vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
-  flex-wrap: wrap;
-  position: relative;
-  margin: 0;
-  padding: 1rem;
-  height: auto;
-  width: 100%;
+  align-items: center;
   justify-content: center;
-  background: rgba(36, 36, 36, 0.2);
-  border: 1px solid rgb(37, 37, 37);
-  border-radius: 30px;
-  backdrop-filter: blur(15px) brightness(1.2);
-  -webkit-backdrop-filter: blur(50px) brightness(1.2);
+  position: relative;
 }
-
+/* section-2 */
+.parallax2::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #55555532;
+}
 .section-2-about {
-  margin-left: 4rem;
+  position: relative;
   padding: 2rem;
   width: 60%;
   height: auto;
@@ -301,14 +312,16 @@ span.navbar-toggler-icon{
   align-items: center;
   justify-content: center;
   background-color: transparent;
+  color: #ffffff;
+  z-index: 1;
 }
-
-#animated-hi {
-  color: #555555;
+.section-2-title {
+  color: #ffffff;
   padding: 1rem;
   background-color: transparent;
   animation: fadeIn 4s ease-out forwards;
 }
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -320,12 +333,12 @@ span.navbar-toggler-icon{
   }
 }
 
-.section-2-about p {
+.section-2-text {
+  color: #ffffff;
   background-color: transparent;
   font-family: "Roboto", sans-serif;
   font-size: 1.1rem;
   font-weight: 400;
-  color: rgb(0, 0, 0);
   word-spacing: 0.3rem;
   letter-spacing: 0.01rem;
   margin: 1rem;
@@ -339,9 +352,9 @@ span.navbar-toggler-icon{
   text-align: center;
   padding: 1rem 2rem;
   display: inline;
-  color: #000000;
+  color: #ffffff;
   background-color: transparent;
-  border: 0.2rem solid #555555;
+  border: 0.2rem solid #ffffff;
   border-radius: 10px;
   cursor: pointer;
   text-decoration: none;
@@ -352,7 +365,6 @@ span.navbar-toggler-icon{
   color: rgb(254, 254, 254);
   box-shadow: 0 0.3rem 0.8rem #555555;
 }
-/* end section-2 */
 
 /* start projects */
 .portfolio {
@@ -433,15 +445,15 @@ span.navbar-toggler-icon{
 footer {
   width: 100%;
   height: auto;
-  border-top: 0.01px solid#000000;
-  padding: 3rem;
+  border-top: 0.01px solid #555555;
+  padding: 2rem 0 1rem 0;
   text-align: center;
   align-items: center;
-  background-color: #555555;
+  background-color: #000000;
 }
 .footer-social {
   padding: 1.5rem;
-  background-color: #555555;
+  background-color: #000000;
 }
 .footer-social h2 {
   color: rgb(255, 255, 255);
@@ -451,12 +463,12 @@ footer {
   display: inline-block;
   text-decoration: none;
   padding-left: 2rem;
-  background-color: #555555;
+  background-color: #000000;
 }
 .footer-social img {
   height: 2rem;
   width: 2rem;
-  background-color: #555555;
+  background-color: #000000;
 }
 .footer-social img:hover {
   background-color: #000000;
@@ -464,11 +476,11 @@ footer {
   box-shadow: 0 0.3rem 0.3rem #555555;
   border-radius: 50%;
 }
-.footer-copyright,
-small {
-  color: rgba(254, 254, 254, 0.7);
-  background-color: #555555;
-  padding: 3rem 0 0rem 0;
+.footer-contact p{
+  font-size: 1rem;
+  background-color: #000000;
+  color: #555555;
+ padding-top: 1rem;
 }
 /* end-footer */
 
@@ -503,7 +515,7 @@ small {
 .section-journey-body {
   width: 90%;
   margin-left: 4rem;
-  background-color:#e6e6e6;
+  background-color: #e6e6e6;
 }
 
 .section-journey-title {
@@ -513,19 +525,19 @@ small {
   font-weight: 500;
   margin-bottom: 0.5rem;
   text-align: left;
-  background-color:#e6e6e6;
+  background-color: #e6e6e6;
 }
 
 /* section-certification */
 .section-certification {
   background-image: url(../image/prova-1-01-01.png);
-  background-position: center ;
+  background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
   padding: 1rem;
   display: flex;
   flex-wrap: wrap;
-  height:100vh;
+  height: 100vh;
   width: 100%;
   align-content: center;
   justify-content: center;
@@ -541,16 +553,16 @@ small {
   background-color: #555555;
   color: #ffffff;
 }
-.col{
+.col {
   padding: 0;
   background-color: #555555;
   color: #ffffff;
 }
-.certification{
+.certification {
   background-color: transparent;
   color: #ffffff;
 }
-.certification h3{
+.certification h3 {
   background-color: #555555;
   color: #ffffff;
   font-size: 2rem;
@@ -575,12 +587,12 @@ small {
   text-align: left;
   background-color: #555555;
 }
-.certification-group h4{
+.certification-group h4 {
   background-color: #555555;
   color: #e6e6e6;
 }
-.section-certification p{
-  background-color: #555555; 
+.section-certification p {
+  background-color: #555555;
   font-size: 1rem;
 }
 /* section-skills */
@@ -916,7 +928,7 @@ img.show {
   .cursor {
     width: 0.2rem;
     height: 0.2rem;
-    background-color: #000000;
+    background-color: #555555;
     border-radius: 50%;
     position: fixed;
     pointer-events: none;
@@ -924,99 +936,129 @@ img.show {
     transition: transform 0.05s linear;
     box-shadow: 0 0 0.5rem #ffffff;
     box-shadow: 0 0 0.5rem #000000;
-  } header {
+  }
+  header {
     padding: 1rem;
   }
   .navbar-social {
     flex-direction: column;
-    background-color: #555555;
+    background-color: #000000;
   }
   .navbar-social a {
     color: rgb(255, 255, 255);
     display: inline-block;
     text-decoration: none;
+    background-color: #000000;
   }
   .collapse {
     padding: 0.5rem;
+    background-color: #000000;
   }
   .collapse a {
     font-size: 1rem;
-    padding: 0.2rem;
-  } 
+    padding: 0.5rem;
+    background-color: #000000;
+  }
 
   /* end header */
-  .hero {
+  .parallax {
+    width: 100%;
+    height: 100vh;
     position: relative;
-    margin: 0;
-    height: auto;
-    width: 100%;
-  }
-  .image-hero img {
-    width: 100%;
-    height: 30vh;
   }
 
-  .hero .hero-content{
-    height: 60%;
-    width:70%;
-    padding: 0.5rem;
-    overflow: hidden;
+  .hero-content {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    height: auto;
+    width: auto;
+    padding: 2rem;
+    place-content: left;
+    text-align: left;
+    background: transparent;
   }
-  .hero-content h1{
-    font-size: 2rem;
+  .hero-title span {
+    font-size: 1.75rem;
     word-spacing: 1px;
+    background: transparent;
+    margin-bottom: 0.5rem;
+  }
+  .hero-title i{
+    font-size: 1.75rem;
+    font-weight: 800;
+    word-spacing: 1px;
+    background: transparent;
+    padding-left: 1rem;
     margin-bottom: 1rem;
   }
 
-  .hero-content p{
-    font-size: 1rem;
-    margin-bottom:1rem;
+  .hero-text {
+    display: block;
+    color: #ffffff;
   }
-  .hero .btn-hero{
-    padding: 0.5rem 1rem;
+  .hero-text p {
+    word-spacing: 2px;
+    margin-bottom: 1.2rem;
     font-size: 1rem;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
   }
-  /* end hero */
-  /* section-2 */
-  .section-2 {
-    height: auto;
+  .btn-hero {
+    padding: 1rem 2rem;
+    font-size: 0.8rem;
+    text-align: center;
+    font-weight: 500;
+    display: inline-flex;
+    border-radius: 10px;
+  }
+
+  .parallax2 {
     width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
     position: relative;
     padding: 1rem;
-    justify-content: center;
-    background: rgba(36, 36, 36, 0.2);
-    border: 1px solid rgb(37, 37, 37);
-    border-radius: 30px;
-    backdrop-filter: blur(15px) brightness(1.2);
-    -webkit-backdrop-filter: blur(50px) brightness(1.2);
   }
+  /* section-2 */
 
   .section-2-about {
-    margin: 0;
-    padding: 0;
-    width: 100%;
+    position: relative;
+    padding: 1rem;
+    width: 80%;
     height: auto;
+    z-index: 1;
   }
-
-  #animated-hi {
+  .section-2-title {
+    color: #ffffff;
     font-size: 1.75rem;
-    color: #555555;
     padding: 0.5rem;
+    background-color: transparent;
   }
 
-  .section-2-about p {
+  .section-2-text {
+    color: #ffffff;
     background-color: transparent;
     font-size: 1rem;
-    word-spacing: 0;
-    letter-spacing: 0;
-    margin: 0;
+    font-weight: 400;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    margin: 1rem;
     padding-bottom: 1rem;
   }
+
   .btn-about {
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-align: center;
     padding: 0.5rem 1rem;
-    margin-bottom: 1rem;
+    border: 0.2rem solid #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 1.3rem;
   }
-  /* end section-2 */
 
   /* start projects */
   .portfolio {
@@ -1059,39 +1101,40 @@ img.show {
     left: 0.4rem;
   }
 
-  .project-text h3{
+  .project-text h3 {
     font-size: 1.75rem;
   }
-  
+
   /* end 'portfolio' */
 
   footer {
     width: 100%;
     height: auto;
-    border-top: 0.01px solid#000000;
     padding: 1rem;
+    background-color: #000000;
   }
   .footer-social {
-    padding: 1rem;
+    padding: 0.5rem;
   }
-  .footer-social h2{
+  .footer-social h2 {
     font-size: 1.75rem;
   }
   .footer-social a {
-    font-size: 1rem;
+    font-size: 0.8rem;
     padding: 0;
+    background-color: #000000;
   }
   .footer-social img {
     height: 1rem;
     width: 1rem;
+    background-color: #000000;
   }
 
-  .footer-copyright,
-  small {
-    font-size: 0.8rem;
-    color: rgba(254, 254, 254, 0.7);
-    background-color: #555555;
-    padding: 1rem 0 1rem 0;
+  .footer-contact p{
+    font-size: 0.7rem;
+    background-color: #000000;
+    color: #555555;
+   padding-top: 1rem;
   }
   /* end-footer */
 
@@ -1129,9 +1172,9 @@ img.show {
     font-size: 1.25rem;
   }
   /* section-certification */
-  .section-certification{
+  .section-certification {
     padding: 1rem;
-    background-size:50vh;
+    background-size: 50vh;
     margin: 0;
     height: auto;
     width: 100%;
@@ -1139,18 +1182,18 @@ img.show {
     justify-content: center;
     position: relative;
   }
-  .row{
+  .row {
     width: 100%;
-    height:auto;
+    height: auto;
     overflow: hidden;
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
   }
-.col{
-  width: 100%;
-  height:auto;
-}
-.certification h3{
+  .col {
+    width: 100%;
+    height: auto;
+  }
+  .certification h3 {
     font-size: 1.3rem;
     padding: 0;
     margin: 0;
@@ -1163,7 +1206,7 @@ img.show {
     text-align: left;
   }
 
-  .certification-group h4{
+  .certification-group h4 {
     font-size: 1.2rem;
   }
   /* section-skills */
