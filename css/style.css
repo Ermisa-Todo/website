@@ -641,6 +641,7 @@ footer {
 /* contact */
 .section-contact {
   background-image: url(../image/Untitled-1.png);
+  background-repeat: no-repeat;
   padding: 1rem;
   display: flex;
   flex-wrap: wrap;
