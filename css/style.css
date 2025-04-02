@@ -759,6 +759,7 @@ button:hover {
   width: 100%;
   box-sizing: border-box;
   background-color: #000000;
+  padding: 1rem;
 }
 
 .logo-grid {
