@@ -1,8 +1,3 @@
-document.addEventListener("mousemove", function (event) {
-  const cursor = document.querySelector(".cursor");
-  cursor.style.transform = `translate(${event.clientX}px, ${event.clientY}px)`;
-});
-
 const images = document.querySelectorAll(".fade-in");
 
 const observer = new IntersectionObserver(
