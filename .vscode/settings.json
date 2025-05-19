@@ -4,6 +4,7 @@
     "changefreq",
     "DBXBS",
     "Dominusoft",
+    "elixiressentials",
     "firely",
     "Indesign",
     "lastmod",
@@ -12,5 +13,6 @@
     "provoj",
     "Udemy",
     "urlset"
-  ]
+  ],
+  "liveServer.settings.port": 5501
 }

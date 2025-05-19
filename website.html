@@ -31,6 +31,8 @@
     
         <link rel="stylesheet" href="css/bootstrap.min.css" />
         <link rel="stylesheet" href="css/style.css" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
         <script type="application/ld+json">
           {
             "@context": "http://schema.org",
@@ -60,57 +62,43 @@
         }
       </script>
     </head>
-    
-  
 <body>
-<div id="main">
-  <!-- header -->
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-nav">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+    <nav class="navbar navbar-expand-lg  navbar-dark text-white">
+        <a class="navbar-brand" href="index.html">
+          <img src="image/PNG_ARTB-01.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link text-white" href="index.html">Projects</a>
+              <a class="nav-link text-white"   aria-current="page" href="index.html">Projects</a>
             </li>
+  
             <li class="nav-item">
-              <a class="nav-link text-white" href="about.html">About Me </a>
+              <a class="nav-link text-white"  href="about.html">About Me</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="contact.html">Contact</a>
+            <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="logo.html">Logo Design</a></li>
+            <li><a class="dropdown-item" href="#">Visual Identity Design</a></li>
+            <li><a class="dropdown-item" href="#">Digital & Print Design</a></li>
+            <li><a class="dropdown-item" href="#">Web Design & Development</a></li>
+          </ul>
+        </li>
+            <li class="nav-item contact-btn">
+              <a class="nav-link text-white"  href="contact.html">Contact</a>
             </li>
           </ul>
-           <div class="navbar-social">
-            <a
-              href="https://www.behance.net/ermisatodo"
-              class="btn-outline"
-              target="_blank"
-            >
-              <img src="image/behance-logo.png" alt="gmail"
-            /></a>
-            <a
-              href="https://www.linkedin.com/in/ermisa-todo-548953325/"
-              class="btn-outline"
-              target="_blank"
-            >
-              <img src="image/linkedin-logo.png" alt="gmail" /></a
-            >
-          </div>
-        </div>
       </div>
-    </nav> 
+    </nav>
   </header>
+     <main>
 <!-- start -->
 <section  class="website-project">
     <div class="website-grid-wrapper">
@@ -135,48 +123,39 @@
                 <li>Ensure an easy-to-navigate experience for potential clients.</li>
               </ul>
           </p>
-             <!-- <p><a href="" target="_blank" > See the full design process </a>
-             </p> -->
           </div>
          
     </div>
 </section>
 
-<a href="index.html#section-3" class="floating-btn">Back</a>
-<!-- footer -->
-<footer>
-  <div class="footer-contact">
-    <div class="footer-social">
-      <h2>Let's Connected</h2>
-      <a href="mailto:et.designer11@gmail.com" class="btn-outline" target="_blank">
-        <img src="image/gmail-logo.png" alt="gmail">
-       et.designer11@gmail.com </a>
-      <a
-        href="https://www.behance.net/ermisatodo"
-        class="btn-outline"
-        target="_blank"
-      >
-        <img src="image/behance-logo.png" alt="gmail" />
-        Behance</a
-      >
-      <a
-        href="https://www.linkedin.com/in/ermisa-todo-548953325/"
-        class="btn-outline"
-        target="_blank"
-      >
-        <img src="image/linkedin-logo.png" alt="gmail" />
-        Linkedin</a
-      ><br />
-    </div>
-      <p>&copy;2025 E.T Designer All Rights Reserved</p>
-  </div>
-</footer>
-</div>
+      <footer class="footer">
+      <div class="container">
+        <h4>E.T Designer</h4>
+        <p>Graphic & Web Designer</p>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="index.html">Projects</a></li>
+          <li class="list-inline-item"><a href="about.html">About Me</a></li>
+          <li class="list-inline-item"><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/ermisa-todo-548953325/" class="text-white me-3" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
+          <a href="https://www.behance.net/ermisatodo" class="text-white me-3" target="_blank"><i class="fab fa-behance fa-lg"></i></a>
+          <!-- <a href="https://www.instagram.com/yourprofile" class="text-white" target="_blank"><i class="fab fa-instagram fa-lg"></i></a> -->
+        </div>
+        <p class="email">Email: <a href="et.designer11@gmail.com">et.designer11@gmail.com</a></p>
+        <p class="copyright">© 2025 E.T Designer</p>
+    
+      </div>
+    </footer>
+</main>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
   </body>
 </html>
+
+
+
 
 
 

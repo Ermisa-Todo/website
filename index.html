@@ -61,9 +61,10 @@
       content="https://et-designer.com/"
     />
     <link rel="manifest" href="site.webmanifest" />
-
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
     <script type="application/ld+json">
       {
         "@context": "http://schema.org",
@@ -95,170 +96,162 @@
   </head>
 
   <body>
-    <div class="cursor"></div>
-    <div id="main">
-      <!-- header -->
-      <header>
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <div class="container-nav">
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="index.html">Projects</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="about.html">About Me</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="contact.html">Contact</a>
-                </li>
-              </ul>
-              <div class="navbar-social">
-                <a
-                  href="https://www.behance.net/ermisatodo"
-                  class="btn-outline"
-                  target="_blank"
-                >
-                  <img src="image/behance-logo.png" alt="gmail"
-                /></a>
-                <a
-                  href="https://www.linkedin.com/in/ermisa-todo-548953325/"
-                  class="btn-outline"
-                  target="_blank"
-                >
-                  <img src="image/linkedin-logo.png" alt="gmail"
-                /></a>
-              </div>
+  <header>
+    <nav class="navbar navbar-expand-lg  navbar-dark text-white">
+        <a class="navbar-brand" href="index.html">
+          <img src="image/PNG_ARTB-01.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-white"   aria-current="page" href="index.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white"  href="about.html">About Me</a>
+            </li>
+            <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Services
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="logo.html">Logo Design</a></li>
+            <li><a class="dropdown-item" href="#">Visual Identity Design</a></li>
+            <li><a class="dropdown-item" href="#">Digital & Print Design</a></li>
+            <li><a class="dropdown-item" href="#">Web Design & Development</a></li>
+          </ul>
+        </li>
+            <li class="nav-item contact-btn">
+              <a class="nav-link text-white"  href="contact.html">Contact</a>
+            </li>
+          </ul>
+      </div>
+    </nav>
+  </header>
+     <main>
+    <section class="parallax">
+        <div class="hero">
+            <div class="hero-content1">
+                <h1 class="hero-title1">
+                    <span class="word">Bringing Ideas </span>
+                    <span class="word"> To Life </span>
+                </h1>
+            </div>
+            <div class="hero-content2">
+                <h1 class="hero-title2">
+                 <span class="word1">Through </span>
+                   <span class="word1"> Design </span>
+                </h1>
+            </div>
+        </div>
+    </section>
+
+
+
+<section class="all-projects">
+<div class="all-projects-wrapper">
+    <div class="row g-5">
+      
+      <!-- Card 1 -->
+      <div class="col-md-4">
+        <div class="card" onclick="location.href='logo.html'">
+          <img src="image/project/Logo-Design.jpg" class="card-img" alt="Logo Design">
+          <div class="card-img-overlay">
+            <div class="overlay-content">
+              <h5 class="mb-0">Logo Design</h5>
+              <button class="arrow-btn">&rarr;</button>
             </div>
           </div>
-        </nav>
-      </header>
-
-      <!-- start content -->
-      <section class="parallax">
-        <div class="hero-content">
-          <h1 class="hero-title">
-            <span>Bringing Ideas</span>
-            <span> To Life </span>
-            <span>Through<i>Design </i> </span>
-          </h1>
-          <div class="hero-text">
-            <p>Graphic & Web Designer</p>
-            <a href="contact.html" class="btn-hero">Contact</a>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="col-md-4">
+        <div class="card" onclick="location.href='elixiressentials.html'">
+          <img src="image/Elixir Essentials/Elixir-Essentials--Branding.jpg" class="card-img" alt="Visual Identity">
+          <div class="card-img-overlay">
+            <div class="overlay-content">
+              <h5 class="mb-0">Visual Identity</h5>
+              <button class="arrow-btn">&rarr;</button>
+            </div>
           </div>
         </div>
-      </section>
-
-      <section class="parallax2">
-        <div class="section-2-about">
-          <h2 class="section-2-title">Hi There!</h2>
-          <p class="section-2-text">
-            I'm Ermisa, a Junior Graphic & Web Designer based in London.
-            Passionate about design, I love collaborating with clients to craft
-            unique visuals that inspire, engage, and tell a story. <br />
-            After several years in management, I chose to follow my true
-            passion<br />
-            bringing ideas to life through design.<br />
-            With a keen eye for detail, creativity, and imagination, I approach
-            every project with dedication and a desire to push boundaries. I'm
-            always eager to learn, take on new creative challenges, and grow in
-            this ever-evolving industry.
-          </p>
-          <a href="about.html" class="btn-about">View More</a>
-        </div>
-      </section>
-<!-- portfolio -->
-<section class="portfolio" id="section-3">
-        <div class="portfolio-header">
-          <h2>Take a look at projects</h2>
-        </div>
-        <div class="portfolio-wrapper">
-        <!-- logo -->
-      <a href="logo.html" class="overlay-div">
-          <img  src="image/project/Logo-Design.jpg"   alt="professional-logo-design-in-london">
-      </a>
-        <!-- branding -->
-      <a href="elixiressentials.html" class="overlay-div">
-          <img  src="image/project/elixir-overlay.jpg"    alt="branding-services-in-london">
-          <div class="text-overlay hide-on-small">
-              <h2>Visual Identity</h1>
-              <p>Freelance Project</p>
+      </div>
+      <!-- Card 3 -->
+      <div class="col-md-4">
+        <div class="card" onclick="location.href='couture-art.html'">
+          <img src="image/project/couture-art-overlay.jpg" class="card-img" alt="Visual Identity">
+          <div class="card-img-overlay">
+            <div class="overlay-content">
+              <h5 class="mb-0">Visual Identity</h5>
+              <button class="arrow-btn">&rarr;</button>
+            </div>
           </div>
-      </a>
-      <!-- branding -->
-      <a href="couture-art.html" class="overlay-div">
-          <img  src="image/project/couture-art-overlay.jpg"   alt="professional-branding-design">
-          <div class="text-overlay hide-on-small">
-              <h2>Visual Identity</h2>
-              <p>Internship Project</p>
-          </div>
-      </a>
-        <!-- branding -->
-      <a href="capsule-home.html" class="overlay-div">
-          <img src="image/project/capsule-home-overlay.jpg"  alt="graphic-design-services">
-          <div class="text-overlay hide-on-small">
-              <h2>Visual Identity</h2>
-              <p>Freelance Project</p>
-          </div>
-      </a>
-        <!-- personal -->
-      <a href="personal.html" class="overlay-div">
-          <img   src="image/project/Personal-Project.jpg" alt="digital-design">
-      </a>
-      <!-- website -->
-      <a href="website.html" class="overlay-div">
-        <img src="image/project/website-development.jpg" alt="website-design"> 
-      </a>
         </div>
-</section> 
-
-
-<!-- end -->
-
-      <footer>
-        <div class="footer-contact">
-          <div class="footer-social">
-            <h2>Let's Connected</h2>
-            <a
-              href="mailto:et.designer11@gmail.com"
-              class="btn-outline"
-              target="_blank"
-            >
-              <img src="image/gmail-logo.png" alt="gmail" />
-              et.designer11@gmail.com
-            </a>
-            <a
-              href="https://www.behance.net/ermisatodo"
-              class="btn-outline"
-              target="_blank"
-            >
-              <img src="image/behance-logo.png" alt="gmail" />
-              Behance</a
-            >
-            <a
-              href="https://www.linkedin.com/in/ermisa-todo-548953325/"
-              class="btn-outline"
-              target="_blank"
-            >
-              <img src="image/linkedin-logo.png" alt="gmail" />
-              Linkedin</a
-            ><br />
+      </div>
+      <!-- Card 4 -->
+      <div class="col-md-4">
+        <div class="card" onclick="location.href='capsule-home.html'">
+          <img src="image/project/capsule-home-overlay.jpg" class="card-img" alt="Visual Identity">
+          <div class="card-img-overlay">
+            <div class="overlay-content">
+              <h5 class="mb-0">Visual Identity</h5>
+              <button class="arrow-btn">&rarr;</button>
+            </div>
           </div>
-          <p>&copy;2025 E.T Designer All Rights Reserved</p>
         </div>
-      </footer>
+      </div>
+      <!-- Card 5 -->
+      <div class="col-md-4">
+        <div class="card" onclick="location.href='website.html'">
+          <img src="image/website/website-kb-1.jpg" class="card-img" alt="Web Design and Development">
+          <div class="card-img-overlay">
+            <div class="overlay-content">
+              <h5 class="mb-0">Web Design & Development</h5>
+              <button class="arrow-btn">&rarr;</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Card 6 -->
+      <div class="col-md-4">
+        <div class="card" onclick="location.href='personal.html'">
+          <img src="image/project/Personal-Project.jpg" class="card-img" alt="...">
+          <div class="card-img-overlay">
+            <div class="overlay-content">
+              <h5 class="mb-0">Personal Projects</h5>
+              <button class="arrow-btn">&rarr;</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
+ </section>
+
+
+
+      <footer class="footer">
+      <div class="container">
+        <h4>E.T Designer</h4>
+        <p>Graphic & Web Designer</p>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="index.html">Projects</a></li>
+          <li class="list-inline-item"><a href="about.html">About Me</a></li>
+          <li class="list-inline-item"><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/ermisa-todo-548953325/" class="text-white me-3" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
+          <a href="https://www.behance.net/ermisatodo" class="text-white me-3" target="_blank"><i class="fab fa-behance fa-lg"></i></a>
+          <!-- <a href="https://www.instagram.com/yourprofile" class="text-white" target="_blank"><i class="fab fa-instagram fa-lg"></i></a> -->
+        </div>
+        <p class="email">Email: <a href="et.designer11@gmail.com">et.designer11@gmail.com</a></p>
+        <p class="copyright">© 2025 E.T Designer</p>
+    
+      </div>
+    </footer>
+  </main>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
   </body>
